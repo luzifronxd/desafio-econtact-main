@@ -15,7 +15,6 @@ function obtenerTelefonoPeru(econtact = {}) {
       {
         return `Perú no tiene asignado un teléfono`;
       }
-
 }
 const objetoFijo = {
   empresa: "E-Contact",

@@ -1,7 +1,4 @@
-/**
- *? EJERCICIO 18: Crear una función que reciba 2 (dos) parámetros: el "objetoFijo" definido al inicio y un número (cantidad de empleados).
- *? La función debe retornar la cantidad de sedes que tengan una cantidad de empleados menor a la cantidad establecida como segundo parámetro.
- */
+
 function verificarCantidadEmpleados(econtact = {}, cantidad) {
 
     const sedes = Object(econtact.datos.sedes);
@@ -54,4 +51,4 @@ const objetoFijo = {
     },
   },
 };
-console.log(verificarCantidadEmpleados(objetoFijo,100));
+console.log(verificarCantidadEmpleados(objetoFijo,20));
